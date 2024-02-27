@@ -12,7 +12,7 @@ public class task2 {
             return;
         }
         for(int i = 1; i <= n; i++){
-            System.out.print(7 * i + ' ');
+            System.out.print(7 * i + " ");
         }
     }
 }

@@ -9,6 +9,10 @@ public class task4 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число: ");
         int n = sc.nextInt();
+        if(n <= 1){
+            System.out.println("Нет.");
+            return;
+        }
         for(int i = 2; i <= sqrt(n); i++){
             if(n % i == 0){
                 System.out.println("Нет.");

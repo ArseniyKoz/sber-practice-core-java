@@ -7,15 +7,15 @@ public class task7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите a = ");
-        int a = sc.nextInt();
+        double a = sc.nextDouble();
 
         System.out.println("Введите b = ");
-        int b = sc.nextInt();
+        double b = sc.nextDouble();
 
         System.out.println("Введите c = ");
-        int c = sc.nextInt();
+        double c = sc.nextDouble();
 
-        int d = b*b - 4*a*c;
+        double d = b*b - 4*a*c;
         double ds = sqrt(d);
 
         if(d < 0){
