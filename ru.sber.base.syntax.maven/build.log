@@ -1,0 +1,16 @@
+Executing pre-compile tasks…
+Cleaning output directories…
+Running 'before' tasks
+Checking sources
+Copying resources... [ru.sber.base.syntax.maven]
+Parsing java… [ru.sber.base.syntax.maven]
+Writing classes… [ru.sber.base.syntax.maven]
+Updating dependency information… [ru.sber.base.syntax.maven]
+Adding nullability assertions… [ru.sber.base.syntax.maven]
+Adding pattern assertions… [ru.sber.base.syntax.maven]
+Running 'after' tasks
+javac 21.0.2 was used to compile java sources
+Finished, saving caches…
+Executing post-compile tasks…
+Synchronizing output directories…
+28.02.2024 22:44 - Build completed successfully in 2 sec, 533 ms
