@@ -12,6 +12,7 @@ public class TestMatrix {
 
         System.out.println("A");
         a.printMatrix();
+
         System.out.println("B");
         b.printMatrix();
 

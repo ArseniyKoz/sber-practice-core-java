@@ -21,6 +21,7 @@ public class TestPhone {
             String num = "+789553443" + i;
             phones[i] = new Phone(num, "iPhone");
         }
+
         Phone.sendMessage(phones);
         System.out.println();
 

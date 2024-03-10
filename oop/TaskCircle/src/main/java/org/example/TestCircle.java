@@ -14,6 +14,7 @@ public class TestCircle {
         System.out.println("Площадь 3 круга: " + areaC3);
         System.out.println();
 
+
         double perC1 = c1.perimeter();
         double perC2 = c2.perimeter();
         double perC3 = c3.perimeter();

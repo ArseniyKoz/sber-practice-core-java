@@ -4,6 +4,7 @@ public class Phone {
     String number;
     String model;
     double weight;
+
     public static void receiveCall(String name){
         System.out.println("Звонит " + name);
     }
