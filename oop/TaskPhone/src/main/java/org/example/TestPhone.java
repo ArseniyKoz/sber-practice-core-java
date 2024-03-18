@@ -25,13 +25,10 @@ public class TestPhone {
         Phone.sendMessage(phones);
         System.out.println();
 
-        Phone.toString(phone1);
-        System.out.println();
+        System.out.println(phone1.toString(1));
 
-        Phone.toString(phone2);
-        System.out.println();
+        System.out.println(phone2.toString(1));
 
-        Phone.toString(phone3);
-        System.out.println();
+        System.out.println(phone3.toString(1));
     }
 }

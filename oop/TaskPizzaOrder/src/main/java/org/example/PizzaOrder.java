@@ -76,28 +76,30 @@ public class PizzaOrder {
         this.isSause = isSause;
     }
 
-    public void myToString(){
+    public String toString(int i){
         String s = "";
-        switch (size){
-            case BIG -> s = "Большая пиица";
+        switch (this.size){
+            case BIG -> s = "Большая пицца";
             case SMALL -> s = "Маленькая пицца";
             case MEDIUM -> s = "Средняя пицца";
         }
         String sause;
-        if(isSause){
+        if(this.isSause){
             sause = "с соусом";
         }else{
             sause = "без соусом";
         }
-        if(isConfirm){
-            System.out.println("==============================");
-            System.out.println(s + " '" + label + "' " + sause + " по адресу " + address + ", Заказ принят.");
-            System.out.println("==============================");
+        String ans = "";
+        if(this.isConfirm){
+            ans = "==============================\n";
+            ans +=s + " '" + this.label + "' " + sause + " по адресу " + this.address + ", Заказ принят.\n";
+            ans += "==============================\n";
         }else{
-            System.out.println("==============================");
-            System.out.println(s + " '" + label + "' " + sause + " по адресу " + address + ", Заказ не принят.");
-            System.out.println("==============================");
+            ans = "==============================\n";
+            ans += s + " '" + this.label + "' " + sause + " по адресу " + this.address + ", Заказ не принят.\n";
+            ans += "==============================\n";
         }
+        return ans;
     }
 }
 enum Size{

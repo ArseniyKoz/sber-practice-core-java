@@ -10,7 +10,6 @@ public class Author {
         this.gender = gender;
         this.email = email;
     }
-
     public String getName(){
         return name;
     }

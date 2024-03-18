@@ -9,6 +9,7 @@ public class Matrix {
         this.body = body;
         this.row = row;
         this.col = col;
+
     }
 
     public void setValue(int i, int j, int value){

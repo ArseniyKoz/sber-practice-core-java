@@ -14,9 +14,8 @@ public class TestPizzaOrder {
 
         order1.cancel();
 
+        System.out.println(order1.toString(1));
 
-        order1.myToString();
-
-        order2.myToString();
+        System.out.println(order2.toString(1));
     }
 }

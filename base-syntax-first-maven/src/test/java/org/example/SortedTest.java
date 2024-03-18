@@ -133,6 +133,7 @@ class SortedTest {
     }
 
     @Test
+
     void BubbleSortL2() {
         Sorted s = new Sorted();
         int n = 1000;

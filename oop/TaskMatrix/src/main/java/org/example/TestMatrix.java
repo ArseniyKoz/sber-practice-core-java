@@ -32,6 +32,7 @@ public class TestMatrix {
         int n1 = 3;
         int m1 = 4;
         int[][] body3 = {{1, 3, 10, -5}, {2, 4, 5, 0}, {1, 1, 1, -1}};
+
         Matrix A = new Matrix(body3, n1, m1);
 
         int n2 = 4;

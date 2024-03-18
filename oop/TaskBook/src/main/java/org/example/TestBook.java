@@ -33,7 +33,7 @@ public class TestBook {
         Author author3 = new Author("NaN","NaN", "NaN@gmail.com");
         Book book3 = new Book(author3, 0);
 
-        book3.myToString();
+        System.out.println(book3.toString(1));
 
         book3.setYear(1909);
         author3.setName("Vladimir");
@@ -41,7 +41,6 @@ public class TestBook {
         author3.setEmail("vvlenin1918@gmail.com");
         book3.setAuthor(author3);
 
-
-        book3.myToString():
+        System.out.println(book3.toString(1));
     }
 }

@@ -17,10 +17,7 @@ public class Circle {
         this.color = color;
     }
 
-    public void myToString(){
-
-        System.out.println("Информация по кругу: ");
-        System.out.println("Радиус = " + radius);
-        System.out.println("Цвет: " + color);
+    public String toString(int i){
+        return "Информация по кругу: \t" + "Радиус = " + this.radius + "\tЦвет: " + this.color + "\t";
     }
 }

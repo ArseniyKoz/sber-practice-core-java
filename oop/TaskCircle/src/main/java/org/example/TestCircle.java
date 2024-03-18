@@ -23,10 +23,8 @@ public class TestCircle {
         System.out.println("Периметр 3 круга: " + perC3);
         System.out.println();
 
-        c1.myToString();
-        System.out.println();
-        c2.myToString();
-        System.out.println();
-        c3.myToString();
+        System.out.println(c1.toString(1));
+        System.out.println(c2.toString(1));
+        System.out.println(c3.toString(1));
     }
 }

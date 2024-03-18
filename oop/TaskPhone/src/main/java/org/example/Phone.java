@@ -36,10 +36,7 @@ public class Phone {
         }
     }
 
-    public static void toString(Phone phone){
-        System.out.println("Информация о телефоне: ");
-        System.out.println(phone.number);
-        System.out.println(phone.model);
-        System.out.println(phone.weight);
+    public String toString(int i){
+        return "Информация о телефоне: \t" + this.number + "\t"+ this.model + "\t"+ this.weight + "\t";
     }
 }
